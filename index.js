@@ -12,4 +12,12 @@ $(document).ready(function() {
   $('#right-well')
     .parent()
     .css('background-color', 'blue');
+  $('#right-well')
+    .children()
+    .css('color', 'orange');
+  $('#left-well')
+    .children()
+    .css('color', 'green');
+  $('.target:nth-child(2)').addClass('animated bounce');
+  $('.target:even').addClass('animated shake');
 });
